@@ -1,12 +1,17 @@
 {
-    "name":"LinkType",
-    "description":"온라인 학습 시대에 딱 맞는 맞춤형 확장 프로그램.\nMade by 동은",
+    "name":"E-Learning Bookmark",
+    "description":"온라인 학습 시대에 딱 맞는 맞춤형 확장 프로그램.",
+    "icons":{
+        "16": "icon.png",
+        "48": "icon.png",
+       "128": "icon.png" 
+    },
     "version":"0.1.0",
     "permissions":["activeTab"],
     "manifest_version":2,
     "browser_action":{
-        "default_title":"별마크",
+        "default_title":"E-Learning Bookmark",
         "default_popup":"index.html",
-        "default_icon":"jaga.png"
+        "default_icon":"icon.png"
     }
 }
